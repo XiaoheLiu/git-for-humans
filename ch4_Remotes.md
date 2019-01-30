@@ -12,3 +12,14 @@ git push origin master
 git pull origin master
 
 _Always pull before you push new changes to avoid merge conflicts._
+
+git push -u origin ch4
+_Branch ch4 set up to track remote branch ch4 from origin._
+
+`git fetch origin`
+`git branch --remote`
+_fetch made a copy of the remote repos by the name of origin/\* :_
+athena@LXH-Mac:~/Desktop/repo/git-for-humans\$ git branch --remote
+origin/ch3
+origin/ch4
+origin/master

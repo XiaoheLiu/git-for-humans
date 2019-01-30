@@ -1,5 +1,6 @@
 # Chapter 2: Basics
 
+```shell
 git config --global user.name "Athena Liu"
 git config --global user.email "sdathenaliu@gmail.com"
 
@@ -13,3 +14,4 @@ git add .
 git commit -m "Initial commit"
 
 git commit -a -m "Add ch2"
+```

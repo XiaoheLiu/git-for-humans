@@ -10,3 +10,6 @@ _Check which branch you are at:_
 git branch
 
 git commit -am "Add chapter 3"
+
+git conflict!
+git conflict!!

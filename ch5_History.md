@@ -22,4 +22,5 @@ git log --oneline ..branch-b
 
 # Filtering:
 git log --author='Athena Liu' --grep='log' --oneline ch5_History.md
+    # show commits with author='Athena Liu', message contains 'log', which modifies the ch5_History.md file.
 ```

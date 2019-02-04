@@ -24,3 +24,23 @@ git log --oneline ..branch-b
 git log --author='Athena Liu' --grep='log' --oneline ch5_History.md
     # show commits with author='Athena Liu', message contains 'log', which modifies the ch5_History.md file.
 ```
+
+## Configure default text editor
+
+`git config --global core.editor "vim"`
+
+## git diff
+
+`git diff`
+
+Difference between current head and 2 commit before it:
+`git diff --stat HEAD~2`
+
+Show change of a specific file:
+`git diff --stat HEAD~10 ch3_Branches.md`
+
+## Tagging Commits
+
+`git tag [-a] [-m] <tagname> [-commit>]`
+
+`git tag learn_tagging -a -m "Learn how to tag commits"`

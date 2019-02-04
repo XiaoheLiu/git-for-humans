@@ -41,7 +41,7 @@ Show change of a specific file:
 
 ## Tagging Commits
 
-`git tag [-a] [-m] <tagname> [-commit>]`
+`git tag [-a] [-m] <tagname> [<commit]`
 
 `git tag learn_tagging -a -m "Learn how to tag commits"`
 

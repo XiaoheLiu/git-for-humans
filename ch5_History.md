@@ -44,3 +44,21 @@ Show change of a specific file:
 `git tag [-a] [-m] <tagname> [-commit>]`
 
 `git tag learn_tagging -a -m "Learn how to tag commits"`
+
+Delete a tag:
+`git tag -d <tagname>`
+
+List of tags:
+`git tag -l`
+
+## git checkout
+
+```shell
+git checkout <branchname | tagname | commit id>
+
+git checkout ch4
+git checkout learn_tagging
+git checkout 67e99ff
+```
+
+If you checkout tag or commit, you will be in the _detached HEAD_ state. You are not supposed to add commit in this case. This serves as a scraching pad.
